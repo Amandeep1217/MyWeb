@@ -4,12 +4,12 @@
 }
 
 body {
-	background-image: linear-gradient(to left, #8bdcdc, #66d2f5, #77c0ff, #b4a5ff, #ee82d7);
+	background-image: linear-gradient(to left, #66d2f5, #1d20cf, #2d2555, #f503c0);
 	/* background-size: 400% 400%;
 	animation: gradient 15s ease infinite; */
 }
 
- @keyframes gradient {
+@keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -19,7 +19,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-} 
+}
 
 
 
@@ -70,7 +70,7 @@ body {
 
 h1 {
   font-size: 42dpx;
-  color: #000000;
+  color: white;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -79,12 +79,12 @@ h1 {
 p {
   font-size: 22px;
   font-weight: 350;
-  color: #000000;
+  color: white;
 }
 
 #mail {
   text-transform: uppercase;
-  color: rgb(56, 53, 53) !important;
+  color: white !important;
   letter-spacing: 0.14em;
   text-decoration: none;
   font-weight: 700;
